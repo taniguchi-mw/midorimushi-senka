@@ -1,0 +1,50 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h2 class="maintt">商品詳細・概要</h2>
+<div class="mainbox">
+  <div class="bdr_ds"><img src="../img/order_bz/topimg.jpg" alt="バイオザイム" /><br />
+    <p class="p20">お客様からのお問い合わせが多くあったため、バイオザイムの取扱いを始めました！<br />
+      バイオザイムも正規品を取り扱っておりますので、ご安心ください。</p>
+  </div>
+  <div class="qa pt-10">
+    <dl>
+      <dt><span class="q">Q. </span>「ミドリムシエメラルド」と「バイオザイム」の違いは？</dt>
+      <dd><span class="a">A. </span>違いは原材料と、発売元になります。<br />
+        <br />
+        【原材料】<br />
+        <span class="fw-b">バイオザイム</span>：ユーグレナグラシリス（ミドリムシ）、ローヤルゼリー、鮫軟骨抽出油（コンドロイチン含有）、ビール酵母、ゼラチン、ステアリン酸Ca、着色料（酸化チタン、鉄葉緑素）<br />
+        <span class="fw-b">ミドリムシエメラルド</span>：ユーグレナグラシリス（ミドリムシ）、マキュベリー濃縮果汁末、コエンザイムQ１０、有胞子性乳酸菌、ゼラチン、グリセリン脂肪酸エステル、二酸化ケイ素、着色料(ベニバナ黄色素、クチナシ青色素)、葉酸 <br />
+        <br />
+        【メーカー】<br />
+        <span class="fw-b">バイオザイム</span>：株式会社アンテナ<br />
+        <span class="fw-b">ミドリムシエメラルド</span>：株式会社ユーコネクト<br />
+        <br />
+        <span class="fc-redb">バイオザイムは、ビタミンや栄養分をより強化したものになります。</span>
+        </p>
+      </dd>
+    </dl>
+    <dl>
+      <dt><span class="q">Q. </span>ミドリムシも違いますか？</dt>
+      <dd><span class="a">A. </span>ミドリムシは同じものです。<br />
+        東京大学内の企業である株式会社ユーグレナが世界で唯一、石垣島にて大量培養に成功しており、バイオザイムもミドリムシエメラルドも、その石垣島のミドリムシで作られたサプリメントです。</dd>
+    </dl>
+  </div>
+</div>
+<h2 class="maintt">バイオザイム商品一覧</h2>
+<div class="mainbox"><!-- #BeginLibraryItem "/Library/order_bz.lbi" -->
+<div class="goodslist">
+  <ul class="clearfix">
+    <li><a href="../order_bz/biozyme01.html" class="over"><img src="../img/order_bz/biozyme01.jpg" alt="バイオザイム　１個100粒" /></a><br />
+      <a href="../order_bz/biozyme01.html" class="link">バイオザイム　１個/100粒</a></li>
+    <li><a href="../order_bz/biozyme02.html" class="over"><img src="../img/order_bz/biozyme02.jpg" alt="バイオザイム　２個セット" /></a><br />
+      <a href="../order_bz/biozyme02.html" class="link">バイオザイム　２個セット</a></li>
+    <li><a href="../order_bz/biozyme03.html" class="over"><img src="../img/order_bz/biozyme03.jpg" alt="バイオザイム　３個セット" /></a><br />
+      <a href="../order_bz/biozyme03.html" class="link">バイオザイム　３個セット</a></li>
+    <li><a href="../order_bz/biozyme04.html" class="over"><img src="../img/order_bz/biozyme04.jpg" alt="バイオザイム　４個セット" /></a><br />
+      <a href="../order_bz/biozyme04.html" class="link">バイオザイム　４個セット</a></li>
+    <li><a href="../order_bz/biozyme05.html" class="over"><img src="../img/order_bz/biozyme05.jpg" alt="バイオザイム　５個セット" /></a><br />
+      <a href="../order_bz/biozyme05.html" class="link">バイオザイム　５個セット</a></li>
+    <li><a href="../order_bz/biozyme06.html" class="over"><img src="../img/order_bz/biozyme06.jpg" alt="バイオザイム　６個セット" /></a><br />
+      <a href="../order_bz/biozyme06.html" class="link">バイオザイム　６個セット</a></li>
+  </ul>
+</div>
+<!-- #EndLibraryItem --></div>

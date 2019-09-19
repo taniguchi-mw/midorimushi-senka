@@ -1,0 +1,79 @@
+.bx-wrapper{
+	width: 100% !important;
+	min-height:120px !important;
+	overflow: hidden;
+	position: relative !important;
+background:#FFFFFF;
+/* 	border-bottom:1px solid #E3E6E3; */
+}
+.bx-window{
+	width: 320px !important;
+	height: 140px;
+	margin: 0 auto !important;
+	/*overflow: visible !important;*/
+	/*height: 350px;*/
+	overflow-x: hidden;
+}
+#slider{
+	min-height:120px;
+	width: 320px;
+	padding:10px 0;
+}
+
+#slider div{
+	width: 320px;
+	margin:0 auto;
+	text-align:center;
+
+}
+
+
+/* Navi */
+.bx-pager{
+	display: none;
+}
+
+/* prev next */
+.prev-next{	
+	width:100%;
+	margin: 0 auto;
+	position: absolute;
+	top:50%;
+	left:0;
+}	
+.bx-prev,
+.bx-next{
+	text-indent: -5000px;
+	display: block;
+	width: 8px;
+	height: 10px;
+	position: absolute;
+	top:50%;
+	text-decoration: none;
+	cursor: pointer;
+	overflow: hidden;
+}
+	.bx-prev {
+		left: 15px;		
+		background-image: url(../img/order_cmn/arrow-prev.png);
+		_background: none;
+		_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/order_cmn/arrow-prev.png', sizingMethod='crop');
+	}
+	.bx-next {
+		right: 15px;
+		background-image: url(../img/order_cmn/arrow-next.png);
+		_background: none;
+		_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/order_cmn/arrow-next.png', sizingMethod='crop');
+
+	}
+/*		.bx-prev:hover,
+		.bx-next:hover{
+			background-position: 0 -350px;
+		}
+		.bx-prev:hover{
+		_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/top/prev_ov.png', sizingMethod='crop');
+		}
+		.bx-next:hover{
+		_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/top/next_ov.png', sizingMethod='crop');
+		}
+*/

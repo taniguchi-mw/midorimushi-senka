@@ -1,0 +1,1 @@
+<?php eho "smartphone index" ;

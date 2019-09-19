@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+body {
+    font-family: "メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+	font-size: 16px;
+}
+
+.container {
+    max-width: 760px;
+}
+
+.page-header {
+    border-top: 8px solid #30A23B;
+    margin: 0 0 20px;
+}
+.page-header small {
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.page_title {
+    margin-bottom: 30px;
+}
+.page_title h2 {
+    padding: 15px;
+    background: #FFFAB3;
+    text-align: center;
+    font-weight: bold;
+    color: #EC4600;
+}
+.page_title h2 small {
+    font-size: 0.7em;
+}
+
+.infomation {
+	margin-bottom:30px;
+	padding:1px 15px 5px;
+    background: #DDF7FF;
+}
+.precautions {
+	border:1px solid #EEE;
+	padding:5px 15px;
+	font-size:14px;
+}
+
+.btn-green {
+    margin-top: 30px;
+    background: #30A23B;
+    color: #FFF;
+    border: none;
+}
+.btn-green:hover, .btn-green:focus {
+    color: #FFF;
+    background: #37B944;
+}
+.btn-green:active {
+    color: #FFF;
+    background: #37B944;
+}
+.btn-lblue {
+    margin-top: 30px;
+    background: #008DB7;
+    color: #FFF;
+    border: none;
+}
+.btn-lblue:hover, .btn-lblue:focus {
+    color: #FFF;
+    background: #33A4C5;
+}
+.btn-lblue:active {
+    color: #FFF;
+    background: #33A4C5;
+}
+.btn-xxl {
+    padding: 10px 80px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+
+#footer {
+    margin-top: 40px;
+    border-top: 8px solid #30A23B;
+    font-size: 12px;
+    text-align: center;
+}
+#footer p {
+    padding: 15px 0 0;
+}
+
+

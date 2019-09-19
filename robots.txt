@@ -1,0 +1,4 @@
+User-Agent:*
+Disallow: /lp/
+Disallow: /hanbaiform/
+Sitemap: https://midorimushi-senka.com/sitemap.xml

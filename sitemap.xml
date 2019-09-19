@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+
+<url>
+  <loc>https://midorimushi-senka.com/</loc>
+  <priority>1.0</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/midorimushi/</loc>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/emerald/</loc>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/teikibin/</loc>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/order/</loc>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/qa/</loc>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/flow/</loc>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/media/</loc>
+  <priority>0.7</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/order/teikibin.html</loc>
+  <priority>0.7</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/order/emerald01.html</loc>
+  <priority>0.7</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/order/emerald02.html</loc>
+  <priority>0.7</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/order/emerald03.html</loc>
+  <priority>0.7</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/order/emerald04.html</loc>
+  <priority>0.7</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/order/emerald05.html</loc>
+  <priority>0.7</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/order/emerald06.html</loc>
+  <priority>0.7</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/</loc>
+  <priority>0.7</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/index20140123.html</loc>
+  <priority>0.6</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/index20131202.html</loc>
+  <priority>0.6</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/index20130729.html</loc>
+  <priority>0.6</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/index20130104.html</loc>
+  <priority>0.6</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/index20121203.html</loc>
+  <priority>0.6</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/index20120928.html</loc>
+  <priority>0.6</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/index20120924.html</loc>
+  <priority>0.6</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/index20120801.html</loc>
+  <priority>0.6</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/index20120724.html</loc>
+  <priority>0.6</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/news/index20120326.html</loc>
+  <priority>0.6</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/proof/</loc>
+  <priority>0.5</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/company/</loc>
+  <priority>0.5</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/tokutei/</loc>
+  <priority>0.5</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/kiyaku/</loc>
+  <priority>0.5</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/privacy/</loc>
+  <priority>0.5</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://midorimushi-senka.com/hanbai/</loc>
+  <priority>0.5</priority>
+  <changefreq>yearly</changefreq>
+</url>
+
+</urlset>

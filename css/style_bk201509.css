@@ -1,0 +1,2101 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+
+=================================================================== */
+
+/*----------------------------------------------------
+	基本設定、リンクカラーなど
+----------------------------------------------------*/
+body {
+	background: url(../img/cmn/h_bg.gif) top left repeat-x #FFFFFF;
+	color: #292827;
+	font-size: 14px;
+	font-family: "メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+	line-height: 1.2em;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+}
+#bn_repeat {
+	width: 100%;
+	height: 100%;
+	background: url(../img/cmn/bn_repeat.png) left top repeat-y, url(../img/cmn/bn_repeat.png) right top repeat-y;
+	background: url(../img/cmn/bn_repeat.png) left top repeat-y\9; /* IE 8 and below */
+ *background: background:url(../img/cmn/bn_repeat.png) left top repeat-y; /* IE 7 and below */
+ _background: background:url(../img/cmn/bn_repeat.png) left top repeat-y; /* IE 6 */
+}
+/*#bn_repeat {
+	width:100%;
+	height:auto;
+	background:url(../img/cmn/bn_repeat.png) 50% top repeat-y;	
+}
+@media screen and (max-width: 1400px) {
+#bn_repeat {
+	background:url(../img/cmn/bn_repeat_s.png) 50% top repeat-y;	
+}
+}*/
+
+a:link {
+	color: #0291E6;
+}
+a:visited {
+	color: #0291E6;
+}
+a:hover {
+	text-decoration: none;
+	color: #3FB7FD;
+}
+a:active {
+	color: #0291E6;
+}
+/*----------------------------------------------------
+	#wrapper
+----------------------------------------------------*/
+#wrapper {
+	width: 980px;
+	margin: 0 auto 0;
+	text-align: left;
+	background-color: #FFF;
+}
+/* -----------------------------------------------------------
+	#header
+		ヘッダー
+----------------------------------------------------------- */
+#header {
+	width: 100%;
+	height: 190px;
+	margin-top: 30px;
+	background: url(../img/cmn/telbg.jpg) right 20px no-repeat #FFF;
+	position: relative;
+}
+h1 {
+	position: absolute;
+	top: -30px;
+	left: 0px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-weight: normal;
+ *background: url(../img/cmn/h_bg.gif) top left repeat-x;
+ *width:100%;
+}
+#oparating {
+	position: absolute;
+	top: 75px;
+	left: 0px;
+}
+#logo {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+}
+#h_euglena_midorimushi {
+	position: absolute;
+	top: 20px;
+	left: 260px;
+}
+#fb {
+	width: 110px;
+	position: absolute;
+	right: 98px;
+	top: -27px;
+}
+#gp {
+	width: 90px;
+	position: absolute;
+	right: 0px;
+	top: -27px;
+}
+#twbtn {
+	width: 115px;
+	position: absolute;
+	right: 210px;
+	top: -27px;
+}
+#gotosp a {/*オレンジ丸*/
+	background: -moz-linear-gradient(
+		top,
+		#EDA630 0%,
+		#F05E38);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#EDA630),
+		to(#F05E38));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #EF8234;
+	text-shadow:
+		0px -1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow:
+		0px 2px 3px rgba(79,73,79,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 2px 3px rgba(79,73,79,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 2px 3px rgba(79,73,79,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+		display:block;		
+	padding:25px 5% 25px 10%;
+	width:67%;
+	font-size:300%;
+	height:50px;
+	line-height:50px;
+	position:relative;
+	color:#FFFFFF;
+	margin:20px auto;
+	text-align:center;
+}
+#gotosp a img {
+	position:absolute;
+	width:26px;
+	height:26px;
+	top:50%;
+	left:30px;
+	margin-top:-13px;
+}
+
+/* #mainNavi
+----------------------------------------------------------- */
+#header #mainNavi {
+	width: 980px;
+	position: absolute;
+	top: 115px;
+	left: 0px;
+}
+#header #mainNavi li {
+	float: left;
+}
+#h_service {
+	width: 247px;
+	position: absolute;
+	top: 5px;
+	left: 328px;
+}
+#header #subNavi {
+	width: 300px;
+	position: absolute;
+	top: 5px;
+	left: 613px;
+}
+#header #subNavi li {
+	float: left;
+	padding: 0 2px 0 0;
+}
+#header #mainNavi li a {
+	display:block;
+	height:64px;
+	text-indent:-9999px;
+}
+#header #mainNavi li:first-child a {
+	width:127px;
+	background:url(../img/cmn/menu01.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(2) a {
+	width:182px;
+	background:url(../img/cmn/menu02.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(3) a {
+	width:200px;
+	background:url(../img/cmn/menu03.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(4) a {
+	width:120px;
+	background:url(../img/cmn/menu04.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(5) a {
+	width:98px;
+	background:url(../img/cmn/menu05.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(6) a {
+	width:133px;
+	background:url(../img/cmn/menu06.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(7) a {
+	width:120px;
+	background:url(../img/cmn/menu07.jpg) left top no-repeat;
+}
+#header #mainNavi li:first-child a:hover {
+	background:url(../img/cmn/menu01_on.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(2) a:hover, #header #mainNavi li:nth-child(2) a.selected {
+	background:url(../img/cmn/menu02_on.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(3) a:hover, #header #mainNavi li:nth-child(3) a.selected {
+	background:url(../img/cmn/menu03_on.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(4) a:hover, #header #mainNavi li:nth-child(4) a.selected {
+	background:url(../img/cmn/menu04_on.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(5) a:hover, #header #mainNavi li:nth-child(5) a.selected {
+	background:url(../img/cmn/menu05_on.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(6) a:hover, #header #mainNavi li:nth-child(6) a.selected {
+	background:url(../img/cmn/menu06_on.jpg) left top no-repeat;
+}
+#header #mainNavi li:nth-child(7) a:hover, #header #mainNavi li:nth-child(7) a.selected {
+	background:url(../img/cmn/menu07_on.jpg) left top no-repeat;
+}
+
+#h_tel {
+	width: 280px;
+	position: absolute;
+	top: 38px;
+	right: 88px;
+}
+#h_tel li {
+	padding: 0;
+	margin: 0;
+}
+/*----------------------------------------------------
+	#contents
+----------------------------------------------------*/
+#contents {
+	width: 980px;
+	padding: 10px 0 0;
+}
+/*----------------------------------------------------
+	#main
+		メイン
+----------------------------------------------------*/
+#main {
+	float: left;
+	width: 740px;
+	padding-bottom: 50px;
+	margin: 0;
+}
+/* -----------------------------------------------------------
+	#side
+		サイドバー
+----------------------------------------------------------- */
+#side {
+	float: left;
+	width: 230px;
+	position: relative;
+	margin: 0;
+	padding: 0 0 30px 10px;
+}
+#side .w220 {
+	width: 220px;
+	padding-left: 10px;
+}
+#side .netchumon {
+	width: 230px;
+	height: 287px;
+	margin-bottom: 10px;
+}
+#side .netchumon a {
+	display: block;
+	width: 230px;
+	height: 287px;
+}
+#side .point {
+	height: 190px;
+}
+#update {
+	background: url(../img/side/update.gif) 10px top no-repeat;
+	width: 160px;
+	height: 70px;
+	margin: 0 auto 5px;
+	font-size: 22px;
+	color: #00792E;
+	font-weight: bold;
+	padding: 25px 10px 0 60px;
+	line-height: 1em;
+	text-align: center;
+	display: none;
+}
+.orderdetail #update {
+	background: url(../img/order_cmn/order_update.gif) left top no-repeat;
+	width: 550px;
+	height: 55px;
+	margin: 30px auto 0;
+	font-size: 22px;
+	color: #1A9964;
+	font-weight: bold;
+	padding: 25px 0 0 60px;
+	line-height: 1em;
+	text-align: left;
+	display: none;
+}
+.displayed {
+	display: block !important;
+}
+#side .bn {/*　バナー　*/
+	padding: 10px 0 0;
+	height: auto;
+}
+#side .bn a {/*　バナー　*/
+	display: block;
+	text-align: center;
+	line-height: 1em;
+}
+#side #bn_teiki a {
+	width:220px;
+	height:184px;
+	position:relative;
+}
+#side #bn_teiki .tax_no {
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+	bottom: 28px;
+	color: #B90B01;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 32px;
+	font-family: 'Open Sans', sans-serif;
+}
+#side #bn_teiki .tax_no:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-mask-image: url(https://midorimushi-senka.com/img/order_cmn/price_msk.png);
+	mask-image: url(https://midorimushi-senka.com/img/order_cmn/price_msk.png);
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+	color: #EE0E02;
+	content: attr(title);
+	text-shadow: -3px -3px #FFF,  3px -3px #FFF,  -3px 3px #FFF,  3px 3px #FFF;
+}
+#side #bn_teiki .tax_inc {
+	display: inline-block;
+	position: absolute;
+	right: 8px;
+	bottom: 8px;
+	font-weight: bold;
+	font-size: 16px;
+	color:#292827;
+}
+#side h4 {/*　タイトル　*/
+	background: url("../img/side/sidett.jpg") no-repeat scroll left top transparent;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 42px;
+	height: 40px;
+	margin-top: 10px;
+	padding: 0 0 0 23px;
+	width: 197px;
+}
+.rankbox {/*　ランキング　*/
+	background: #FCFCF8;
+	border-right: solid 1px #CDCDCD;
+	border-left: solid 1px #CDCDCD;
+	border-bottom: solid 1px #CDCDCD;
+	padding: 5px;
+	height: 130px;
+	width: 208px !important;
+}
+.rankbox .ranktt01 {
+	background: url(../img/side/rank1.jpg) top left no-repeat;
+	padding: 5px 0 5px 34px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 27px;
+}
+.rankbox .ranktt02 {
+	background: url(../img/side/rank2.jpg) top left no-repeat;
+	padding: 5px 0 5px 34px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 27px;
+}
+.rankbox .ranktt03 {
+	background: url(../img/side/rank3.jpg) top left no-repeat;
+	padding: 5px 0 5px 34px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 27px;
+}
+.rankbox dl {
+	float: right;
+	width: 210px;
+}
+.rankbox dt {
+	float: right;
+	width: 120px;
+}
+.rankbox dd {
+	float: right;
+	width: 86px;
+	margin: 0 2px 0 0;
+	text-align: left;
+}
+.sidebox {/*　ボックス　*/
+	border-right: solid 1px #CDCDCD;
+	border-left: solid 1px #CDCDCD;
+	border-bottom: solid 1px #CDCDCD;
+	background: #FFFFFF;
+	padding: 10px;
+}
+#side .sitemap {
+	font-size: 12px;
+	height: 215px;
+}
+#side .sitemap ul li {
+	background: url(../img/side/link_s.gif) left 50% no-repeat;
+	padding: 0 0 0 8px;
+	margin: 5px 0 0;
+}
+/*カレンダー*/
+.cal_wrapper {
+    padding: 0px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 198px;
+}
+.cal_wrapper table.cal tr th p {
+    padding: 0 0 5px;
+    margin: 0px;
+    color: #4B4845;
+}
+.cal_wrapper table.cal tr th .cal_ui {
+    float: right;
+    display:none;
+}
+.cal_wrapper table.cal tr th .cal_ui input {
+    border: solid 1px #CCC;
+    background-color: #FFF;
+    font-size: 12px;
+    margin: 7px 1px 0;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+.cal_wrapper table.cal tr td {
+    /* border-top: solid 1px #FFF; */
+}
+.cal_wrapper table.cal tr td {
+    font-size: 12px;
+    text-align: center;
+    padding: 2px
+}
+.cal_wrapper table.cal tr.headline td {
+    padding: 4px 6px;
+    color: #4B4845;
+    font-size: 12px;
+}
+.cal_wrapper table.cal tr.headline {
+    background-color: #E9FAF4;
+}
+.cal_wrapper table.cal tr td div {
+    position: relative;
+    padding: 2px 3px;
+    /*font-size: 10px;*/
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 3px;
+    color: #4B4845;
+    border: 1px solid #efefef;
+}
+.cal_wrapper table.cal tr td div span {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    display: none;
+    width: 80px;
+    border: solid 1px #EEE;
+    background-color: #FFF;
+    text-align: left;
+    padding: 5px;
+    z-index: 10;
+    color: #000;
+    font-weight: normal;
+    line-height: 1.5em;
+    box-shadow: 1px 1px 3px #666;
+}
+
+
+.cal_wrapper table.cal tr td .Sat {
+    color: #396CB8;
+	background-color: #FFB9B9;
+	border: 1px solid #FFB9B9;
+}
+.cal_wrapper table.cal tr td .Sun {
+    color: #F3122D;
+	background-color: #FFB9B9;
+	border: 1px solid #FFB9B9;
+}
+.cal_wrapper table.cal tr td .Today {
+    font-weight: bolder;
+	background-color:#EFEFEF;
+}
+.cal_wrapper table.cal tr td .Deli {
+    background-color: #EFE;
+}
+.cal_wrapper table.cal tr td .Holyday {
+    font-weight: bolder;
+    color: #F3122D;
+    background-color: #FFB9B9;
+	border: 1px solid #FF6666;
+}
+.cal_wrapper table.cal tr td .Birthday {
+    font-weight: bolder;
+    background-color: #EEF;
+    color: #090;
+    border-radius: 3px;
+}
+
+.cal_wrapper table.cal tr td .backward {
+    color: #CCC;
+    font-weight: normal;
+    background-color: #FFF;
+    border-radius: 3px;
+}
+.cal_wrapper table.cal tr td .pointer {
+    cursor: pointer;
+}
+.cal_wrapper table.cal tr td .pointer:hover {
+    background-color: #FFF;
+}
+
+#cal0, #cal1 {
+    margin-top: 15px;
+}
+#side .calendar {
+}
+#side .calendar dl {
+	font-size: 12px;
+}
+#side .calendar dt {
+	font-weight: bold;
+}
+#side .calendar dd {
+	padding: 0 0 10px;
+}
+#side .news {
+	padding: 0 10px 10px;
+}
+#side .news a {
+	color: #292827;
+	text-decoration: none;
+}
+#side .news a:hover {
+	color: #3FB7FD;
+}
+#side .news dt {
+	padding: 10px 0 0;
+}
+#side .news dd {
+	padding: 5px 0 10px;
+	border-bottom: dashed 1px #B6B6B6;
+}
+#side .news dd.last {
+	padding: 5px 0 10px;
+	border-bottom: none;
+}
+#side #tw {
+	width: 220px;
+	margin: 10px 0 0;
+}
+#side #tw h4 {
+	background: none;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	line-height: auto;
+	margin: auto;
+	padding: auto;
+	width: auto;
+}
+/* -----------------------------------------------------------
+	#footer
+		フッター
+----------------------------------------------------------- */
+.footerbg {
+	background: url(../img/cmn/f_bg.gif) top left repeat-x #FFF;
+	width: 100%;
+	clear: both;
+}
+#footer {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+#footer .flink {
+	color: #FFF;
+	padding: 13px 0 5px;
+	height: 46px;
+}
+#footer .flink ul {
+	padding: 0 0 3px;
+}
+#footer .flink li {
+	display: inline;
+}
+#footer .flink li a {
+	font-size: 12px;
+	color: #FFF;
+}
+#footer ul li.firstChild, #footer ul li:first-child {
+}
+#footer .f_logo {
+	float: left;
+	width: 213px;
+	padding: 15px 10px 15px 0;
+}
+#footer .f_operating {
+	position: absolute;
+	left: 0;
+	bottom: 40px;
+}
+#footer .f_proof {
+	float: left;
+	width: 200px;
+	padding: 15px 0 0 10px;
+}
+#footer .f_proof li {
+	display: inline;
+	padding-right: 10px;
+}
+#footer .f_company {
+	float: left;
+	font-size: 10px;
+	width: 215px;
+	padding: 15px 10px 10px 30px;
+}
+#footer .f_tel {
+	float: right;
+	width: 278px;
+	padding: 20px 0 0 10px;
+}
+#footer .f_tel li {
+	padding: 0 0 10px;
+}
+#footer .copyright {
+	clear: both;
+	text-align: center;
+	font-size: 10px;
+	padding: 0 0 5px;
+}
+/*----------------------------------------------------
+	メインコンテンツ共通
+----------------------------------------------------*/
+.mainbox {
+	padding: 0 0 20px;
+}
+.link {
+	font-weight: bold;
+	background: url(../img/cmn/link.png) 10px 50% no-repeat;
+	padding: 0 0 0 33px;
+}
+.breadcrumb {
+	width:100%;
+	padding: 0 0 10px !important;
+	margin: 0 !important;	
+	font-size: 12px !important;
+}
+.breadcrumb a {
+	font-weight: bold;
+}
+.breadcrumb span:last-child a {
+	font-weight: normal;
+	color: #292827;
+	text-decoration:none;	
+}
+h2.maintt {
+	background: url("../img/cmn/ttbg.jpg") no-repeat scroll left top transparent;
+	line-height: 38px;
+	padding: 2px 0 10px 36px;
+	width: 740px;
+	font-size: 16px;
+}
+h3.tts {
+	background: url("../img/cmn/ttsbg.jpg") no-repeat scroll left top transparent;
+	line-height: 30px;
+	padding: 1px 0 10px 14px;
+	width: 706px;
+	color: #30A23B;
+	margin: 10px auto 0;
+}
+.w720 {/* 段落幅 */
+	width: 720px;
+	margin: 0 auto;
+}
+.w700 {
+	width: 700px;
+	margin: 0 auto;
+}
+.leftbox {/*同じ大きさのbox２つ*/
+	width: 370px;
+	float: left;
+}
+.rightbox {
+	width: 370px;
+	float: right;
+}
+.rightbox img, .leftbox img {
+	padding: 5px 0;
+}
+.bdr_ds {
+	border-bottom: dashed 1px #B6B6B6;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+hr.bdr_ds {
+	display:block;
+	border:none;
+	border-top: dashed 1px #B6B6B6;
+	width:100%;
+	height:1px;
+}
+.bn_order {
+	margin: 20px 0;
+	background: url(../img/cmn/bn_order.jpg) top left no-repeat;
+	width: 730px;
+	height: 168px;
+	position: relative;
+}
+.bn_orderbtn {
+	position: absolute;
+	right: 10px;
+	top: 87px;
+	width: 243px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.bn_orderfax {
+	position: absolute;
+	right: 15px;
+	top: 140px;
+	width: 250px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.bn_order .tax_no {
+	width: 200px;
+	padding:0;
+	display: inline-block;
+	position: absolute;
+	left: 99px;
+	bottom: 28px;
+	color: #B90B01;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 32px;
+	font-family: 'Open Sans', sans-serif;
+}
+.bn_order .tax_no:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-mask-image: url(https://midorimushi-senka.com/img/order_cmn/price_msk.png);
+	mask-image: url(https://midorimushi-senka.com/img/order_cmn/price_msk.png);
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+	color: #EE0E02;
+	content: attr(title);
+	text-shadow: -3px -3px #FFF,  3px -3px #FFF,  -3px 3px #FFF,  3px 3px #FFF;
+}
+.bn_order .tax_inc {
+	display: inline-block;
+	position: absolute;
+	margin:0;
+	padding:0;
+	left: 99px;
+	bottom:8px;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*----------------------------------------------------
+	index
+----------------------------------------------------*/
+.topimg {
+}
+.newssokuhou {
+	border: 3px solid #CCCCCC;
+	padding: 10px;
+	width: auto;
+	margin: 0 auto 10px;
+	line-height: 1.4em;
+}
+.newssokuhou2 {
+	border: 3px solid #E75433;
+	padding: 10px;
+	width: auto;
+	margin: 0 auto 10px;
+	line-height: 1.4em;
+}
+.index .tt02 {
+	background: url(../img/top/tt02_img01.jpg) right 26px no-repeat;
+	min-height: 221px;
+	position: relative;
+}
+.index .tt02 .btn-w {
+	width: 320px;
+	height: 40px;
+	line-height: 42px;
+	position: absolute;
+	left: 93px;
+	top: 186px;
+}
+.index .tt03 {
+	background: url(../img/top/tt03.jpg) top left no-repeat;
+	width: 740px;
+	height: 230px;
+}
+.index .tt03 p {
+	padding: 100px 0 0 260px;
+	width: 405px;
+}
+.tt04 p {/* 以下商品一覧と共通 */
+	margin: 0 0 10px !important;
+	padding: 0 !important;
+}
+.tt04 .fl-r {
+	width: 78%;
+	margin: 0 0 15px;
+}
+.tt04 .btn-y {
+	background: url(../img/top/tt04_btnbg.jpg) top right no-repeat;
+	/*width:344px;*/
+	width: 284px;
+	height: 34px;
+	line-height: 34px;
+}
+.chumon {
+	background: #D7DAC2;
+	padding: 10px;
+	margin: 0 0 20px;
+}
+.chumon ul li {
+	width: 352px !important;
+	float: left !important;
+	margin: 0 4px !important;
+}
+.reason {
+	width: 720px;
+	background: #F9FCFE;
+	padding: 10px;
+}
+/*----------------------------------------------------
+	mm　ミドリムシって何？
+----------------------------------------------------*/
+.mm {
+}
+.mm p {
+	padding: 0 0 5px;
+}
+.mmq {
+	padding: 10px 0 0;
+}
+.mma {
+	padding: 0 0 5px;
+}
+/* 栄養素 */
+.mm .eiyou01, .mm .eiyou02, .mm .eiyou03, .mm .eiyou04, .mm .eiyou05 {
+	margin: 0 0 5px;
+}
+.mm .eiyoutt {
+	line-height: 32px;
+	width: 130px;
+	padding: 0;
+	margin: 5px 0;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	　　border-radius: 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.mm .eiyoulist {
+	width: 740px;
+}
+.mm .eiyoulist li {
+	float: left;
+	line-height: 20px;
+	width: 128px;
+	margin: 0 5px 5px 0;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	　　border-radius: 5px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.mm .eiyou01 .eiyoutt {
+	background: #FF7D26;
+}
+.mm .eiyou02 .eiyoutt {
+	background: #1AACAC;
+}
+.mm .eiyou03 .eiyoutt {
+	background: #F5B303;
+}
+.mm .eiyou04 .eiyoutt {
+	background: #FF79BC;
+}
+.mm .eiyou05 .eiyoutt {
+	background: #5BB940;
+}
+.mm .eiyou01 .eiyoulist li {
+	background: #FFDEC8;
+	border: 1px solid #FF7D26;
+}
+.mm .eiyou02 .eiyoulist li {
+	background: #E0F1EB;
+	border: 1px solid #1AACAC;
+}
+.mm .eiyou03 .eiyoulist li {
+	background: #FEE6A7;
+	border: 1px solid #F5B303;
+}
+.mm .eiyou04 .eiyoulist li {
+	background: #FFDFEF;
+	border: 1px solid #FF79BC;
+}
+.mm .eiyou05 .eiyoulist li {
+	background: #C7E8BD;
+	border: 1px solid #5BB940;
+}
+.mm .eiyou03 {
+	position: relative;
+}
+.mm p.kome {
+	position: absolute;
+	left: 145px;
+	top: 10px;
+	color: #E4A703;
+	font-weight: bold;
+	font-size: 16px;
+}
+.mm .eiyou03 li.komebg {
+	background: #FCC229 !important;
+}
+.mm .eiyou04 li.komebg {
+	background: #FFACD6 !important;
+}
+.mm li.pm {
+	height: 48px;
+	line-height: 20px;
+}
+/* 該当する食品 */
+.gaitouv {
+	width: 738px;
+}
+.gaitouv li {
+	width: 72px;
+	text-align: center;
+	margin: 0 11px 0 0;
+	float: left;
+}
+.vtt li {
+	background: #FF7D26;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 0 !important;
+}
+.vimgtt li {
+	font-size: 11px;
+}
+.vryou li {
+	font-size: 24px;
+	color: #FF7D26;
+	font-weight: bold;
+	padding: 5px 0 !important;
+}
+/* パラミロン詳細へ */
+.mm .gotopm {
+	background: url(../img/midorimushi/img03_2.jpg) right top no-repeat;
+	min-height: 130px;
+}
+.mm .gotopm p {
+	width: 520px;
+}
+.mm .btn-s {
+	background: url(../img/midorimushi/btnsbg.jpg) top left no-repeat;
+	width: 384px;
+	line-height: 44px;
+	margin: 20px auto;
+	font-size: 16px;
+}
+#btn-s2 {/*order*/
+	background: url(../img/midorimushi/btnsbg.jpg) top left no-repeat;
+	width: 384px;
+	line-height: 44px;
+	margin: 10px auto !important;
+	font-size: 16px;
+}
+.mm .adipo {
+	background: url(../img/midorimushi/img04_1.jpg) right bottom no-repeat;
+	min-height: 112px;
+	margin: 0 0 10px;
+}
+.mm .adipo p {
+	width: 540px;
+}
+.mm p.btn-b {
+	background: url(../img/midorimushi/btnbg.jpg) top left no-repeat;
+	width: 740px;
+	line-height: 56px;
+	margin: 10px auto;
+	font-size: 18px;
+	text-align: center;
+}
+/* パラミロン */
+.mm ol li {
+	list-style: decimal;
+	width: 715px;
+	margin: 0 0 0 25px;
+}
+.mm .leftbox2 {
+	width: 420px;
+	float: left;
+}
+.mm .rightbox2 {
+	width: 320px;
+	float: right;
+}
+.mm .csl {
+	width: 378px;
+	border: solid 2px #333333;
+	padding: 10px;
+}
+.mm .csl table td {
+	padding: 5px;
+}
+.mm .gotoemerald {
+	background: url(../img/midorimushi/emerald_btnbg.jpg) top center no-repeat;
+	width: 644px;
+	height: 64px;
+	line-height: 64px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+/*----------------------------------------------------
+	emerald　ミドリムシエメラルド
+----------------------------------------------------*/
+.emerald p {
+	padding: 0 0 5px;
+}
+.emerald h2 {
+	margin: 20px 0 0;
+}
+.emerald h4 {
+	padding: 3px;
+	margin: 5px 0;
+	background: #39A036;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.emerald .box01L {
+	width: 265px;
+	padding-right: 5px;
+	margin: 5px 0 0;
+	float: left;
+}
+.emerald .box01R {
+	width: 470px;
+	float: right;
+}
+.emerald .box02L {
+	width: 50%;
+	padding-right: 5px;
+	margin: 5px 0 10px;
+	float: left;
+}
+.emerald .box02R {
+	width: 470px;
+	float: right;
+}
+.emerald ol li {
+	list-style: decimal;
+	width: 715px;
+	margin: 0 0 0 25px;
+}
+.emerald .dextrin {
+	background: url(../img/emerald/img04_1.gif) right top no-repeat;
+	min-height: 73px;
+}
+.emerald .yousan {
+	background: url(../img/emerald/img05_1.jpg) right top no-repeat;
+	padding-right: 210px;
+	min-height: 88px;
+}
+.emerald .emeralddetail {
+	margin: 20px 0 0;
+}
+.emerald .emeralddetail td {
+	vertical-align: bottom;
+}
+.emerald .emeralddetail .naiyouryou {
+	background: url(../img/emerald/img06_6.gif) 242px 24px no-repeat;
+}
+.emerald_table .tax_no {
+	display: inline-block;
+	position:relative;
+	color: #B90B01;
+	font-weight: bold;
+	font-size: 58px;
+	line-height: 58px;
+	font-family: 'Open Sans', sans-serif;
+}
+.emerald_table .tax_no:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-mask-image: url(https://midorimushi-senka.com/img/order_cmn/price_msk.png);
+	mask-image: url(https://midorimushi-senka.com/img/order_cmn/price_msk.png);
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+	color: #EE0E02;
+	content: attr(title);
+}
+.emerald_table .tax_inc {
+	display: inline-block;
+	padding-top: 10px;
+	font-size: 22px;	
+	font-weight: bold;
+}
+
+/*----------------------------------------------------
+	order　商品一覧
+----------------------------------------------------*/
+.goodslist {/* 商品一覧 */
+	margin: 20px 0 0;
+	padding: 0;
+}
+.goodslist ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.goodslist ul li {
+	width: 367px;
+	position: relative;
+	float: left;
+	margin: 0 3px 15px 0;
+}
+.goodslist ul li a.over {
+	display:block;
+	position:relative;
+	width:367px;
+	height:153px;
+	padding-bottom: 2px;
+}
+.goodslist ul li:first-child a.over {
+	background:url(../img/order_emerald/teikibin.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(2) a.over {
+	background:url(../img/order_emerald/emerald01.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(3) a.over {
+	background:url(../img/order_emerald/emerald02.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(4) a.over {
+	background:url(../img/order_emerald/emerald03.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(5) a.over {
+	background:url(../img/order_emerald/emerald04.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(6) a.over {
+	background:url(../img/order_emerald/emerald05.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(7) a.over {
+	background:url(../img/order_emerald/emerald06.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(8) a.over {
+	background:url(../img/order_emerald/emerald08.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(9) a.over {
+	background:url(../img/order_emerald/emerald10.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(10) a.over {
+	background:url(../img/order_emerald/emerald12.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(11) a.over {
+	background:url(../img/order_emerald/emerald15.jpg) left top no-repeat;
+}
+.goodslist ul li:nth-child(12) a.over {
+	background:url(../img/order_emerald/emerald20.jpg) left top no-repeat;
+}
+.goodslist ul li a.over p {
+	position: absolute;
+	padding: 0 !important;
+	margin: 0 !important;
+	left: 117px;
+	bottom: 33px;
+	display: block;
+	width: 240px;
+	height: 36px;
+	font-weight: bold;
+}
+.goodslist ul li:first-child a p {
+	left: 225px;
+}
+.goodslist ul li:nth-child(2) a p {
+	left: 138px;
+	width: 222px;
+}
+.goodslist ul li a p .tax_info {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 35px;
+	color: #EE0E02;
+	font-size: 18px;
+	line-height: 18px;
+}
+.goodslist ul li:first-child a p .tax_info {
+	left: -116px;
+	bottom: 0px;	
+	font-size: 16px;
+	line-height: 16px;
+	text-shadow:1px 1px 1px #FFF;	
+}
+.goodslist ul li a p .tax_no {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: #B90B01;
+	font-size: 36px;
+	line-height: 36px;
+	font-family: 'Open Sans', sans-serif;
+}
+.goodslist ul li a p .tax_no:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-mask-image: url(../img/order_cmn/price_msk.png);
+	mask-image: url(../img/order_cmn/price_msk.png);
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+	color: #EE0E02;
+	content: attr(title);
+	text-shadow: -3px -3px #FFF,  3px -3px #FFF,  -3px 3px #FFF,  3px 3px #FFF;
+}
+.goodslist ul li a p .tax_inc {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	color: #292827;
+	font-size: 17px;
+}
+.goodslist ul li a p .per_p {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: -2px;
+	color: #EE3204;
+	font-size: 19px;
+	line-height: 19px;
+}
+.goodslist ul li a p .per_p:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-mask-image: url(../img/order_cmn/price_msk.png);
+	mask-image: url(../img/order_cmn/price_msk.png);
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+	color: #F57208;
+	content: attr(title);
+	text-shadow: -3px -3px #FFF,  3px -3px #FFF,  -3px 3px #FFF,  3px 3px #FFF;
+}
+.goodslist ul li a p .per_t {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 21px;
+	color: #2C2723;
+	font-size: 12px;
+	line-height: 12px;
+}
+.goodslist ul li:nth-child(2) a p .per_t {
+	bottom:10px;
+}
+.goodslist ul li a p .abt_m {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: -22px;	
+	color: #5aa50d;
+	font-size: 16px;
+}
+.goodslist ul li:first-child a p .abt_m {
+	left: -116px;
+	bottom: -27px;
+	font-size:12px;
+	line-height:13px;
+}
+
+
+
+.table01 {/* ご利用ガイド他テーブル */
+	border: #BEC2B1 1px solid;
+	width: 100%;
+	padding: 10px;
+}
+.table01 th {
+	background: #F4F8E7;
+	border: #BEC2B1 1px solid;
+	padding: 10px;
+	width: 22%;
+	font-weight: normal;
+}
+.table01 td {
+	border: #BEC2B1 1px solid;
+	padding: 10px;
+	line-height: normal;
+}
+.table01 td table td {
+	border: none;
+	padding: 5px 5px 0;
+}
+.table01 p {
+	padding-bottom:10px;
+}
+.table01 td .table_tt_orb {
+    padding: 5px 0px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #44A637;
+}
+.table02 {/* ご利用ガイド他テーブル小 */
+	border: #BEC2B1 1px solid;
+	width: 700px;
+	padding: 10px;
+	margin: 0 auto 10px;
+}
+.table02 th {
+	background: #F4F8E7;
+	border: #BEC2B1 1px solid;
+	padding: 10px;
+	width: 22%;
+	font-weight: normal;
+}
+.table02 td {
+	border: #BEC2B1 1px solid;
+	padding: 10px;
+	line-height: normal;
+}
+.table02 td table td {
+	border: none;
+	padding: 5px 5px 0;
+}
+.table03 {
+	border: #BEC2B1 1px solid;
+	width: 700px;
+	padding: 10px;
+	margin: 0 auto 10px;
+	font-size: 16px;
+}
+.table03 th {
+	background: #F4F8E7;
+	border: #BEC2B1 1px solid;
+	padding: 10px;
+	font-weight: normal;
+	text-align: center;
+}
+.table03 td {
+	border: #BEC2B1 1px solid;
+	padding: 10px;
+	line-height: normal;
+	text-align: right;
+}
+.table03 td table td {
+	border: none;
+	padding: 5px 5px 0;
+}
+.kounin {
+	width: 708px;
+	border: 1px dotted #E0D7BB;
+	height: 66px;
+	padding: 15px;
+	margin: 10px 0 0;
+}
+.kounin .fl-l {
+	width: 140px;
+}
+
+
+/*----------------------------------------------------
+　　商品詳細
+----------------------------------------------------*/
+#mainb {
+	width: 980px;
+	padding: 0 0 50px;
+}
+#mainb h2.maintt {
+	background: url("../img/order_cmn/detailtt.jpg") no-repeat scroll left top transparent;
+	line-height: 38px;
+	padding: 2px 0 10px 36px;
+	width: 944px;
+	font-size: 16px;
+	margin: 0 0 10px;
+}
+.orderdetail .leftbox {
+	width: 340px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+
+.orderdetail .leftbox .order_bnb {
+	position:relative;
+	width:340px;
+	height:340px;
+	font-weight: bold;	
+}
+.orderdetail .leftbox .order_bnb .tax_infob {
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	bottom: 75px;
+	color: #EE0E02;
+	text-align: right;
+	font-size: 26px;
+	line-height: 26px;
+	text-shadow: -2px -2px #FFF,  2px -2px #FFF,  -2px 2px #FFF,  2px 2px #FFF;	
+}
+.orderdetail .leftbox .order_bnb .tax_nob {
+	display: inline-block;
+	position: absolute;
+	right: 8px;
+	bottom: 70px;
+	color: #B90B01;
+	font-size: 50px;
+	line-height: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+.orderdetail .leftbox .order_bnb .tax_nob:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-mask-image: url(../img/order_cmn/price_msk.png);
+	mask-image: url(../img/order_cmn/price_msk.png);
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+	color: #EE0E02;
+	content: attr(title);
+	text-shadow: -3px -3px #FFF,  3px -3px #FFF,  -3px 3px #FFF,  3px 3px #FFF;
+}
+.orderdetail .leftbox .order_bnb .tax_incb {
+	display: inline-block;
+	position: absolute;
+	font-size: 22px;
+	right: 13px;
+	bottom: 48px;
+	text-shadow: 2px 2px 0 #fff;
+}
+.orderdetail .leftbox .order_bnb .per_ib {
+	display: inline-block;
+	position: absolute;
+	left: 12px;
+	bottom: 12px;
+	font-size: 14px;
+	line-height: 14px;
+}
+.orderdetail .leftbox .order_bnb .per_pb {
+	display: inline-block;
+	position: absolute;
+	right: 12px;
+	bottom: 8px;
+	color: #EE3204;
+	font-size: 34px;
+	line-height: 34px;
+}
+.orderdetail .leftbox .order_bnb .per_pb:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-mask-image: url(../img/order_cmn/price_msk.png);
+	mask-image: url(../img/order_cmn/price_msk.png);
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+	color: #F57208;
+	content: attr(title);
+	text-shadow: -3px -3px #FFF,  3px -3px #FFF,  -3px 3px #FFF,  3px 3px #FFF;
+}
+.orderdetail .leftbox .order_bnb .per_tb {
+	display: inline-block;
+	position: absolute;
+	right: 154px;
+	bottom: 17px;
+	color: #5AA50D;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: right;
+}
+/* エメラルド1個の場合 */
+#eme01 .tax_infob {
+	left: 165px;
+	bottom: 94px;
+	text-align: left;
+}
+.teikibinb .tax_infob {
+	left: 25px !important;
+	bottom: 50px !important;
+	font-size: 22px !important;
+	line-height:22px !important;
+	text-align: left !important;
+}
+.teikibinb .tax_nob {
+	bottom: 52px !important;
+}
+.teikibinb .tax_incb {
+	bottom: 32px !important;
+}
+#eme01 .tax_nob {
+	right: 8px;
+	bottom: 50px;
+}
+#eme01 .tax_incb {
+	bottom: 28px;
+}
+#eme01 .per_ib {
+	left: 150px;
+	bottom: 8px;
+}
+#eme01 .per_tb {
+	right: 58px;
+	bottom: 8px;
+}
+
+
+
+.orderdetail .leftbox ul {
+	margin: 5px 0;
+}
+.orderdetail .leftbox ul li {
+	float: left;
+	padding: 0 5px 0 0;
+}
+.orderdetail .rightbox {
+	width: 620px;
+	padding-left: 20px;
+	float: right;
+	margin: 0 0 20px;
+	background: url(../img/order_cmn/point.jpg) 420px 60px no-repeat;
+	position: relative;
+}
+.orderdetail .teikirb {
+	background-image: none !important;
+}
+.sp36 .rightbox {
+	background-image: none !important;
+}
+.orderdetail .leftbox img, .orderdetail .rightbox img {
+	padding: 0;
+}
+.orderdetail .tt {
+	font-size: 32px;
+	line-height: 32px;
+	color: #1DAD94;
+	border-bottom: dashed 1px #B6B6B6;
+	padding: 5px 0 5px;
+	margin: 0 0 20px;
+}
+.orderdetail .tt_sml {
+	font-size: 26px;
+	line-height: 26px;
+	color: #1DAD94;
+	border-bottom: dashed 1px #B6B6B6;
+	padding: 5px 0 5px;
+	margin: 0 0 20px;
+}
+.orderdetail .lprice {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 0 0 25px;
+}
+.orderdetail .lprice .onepiece {
+	color: #FD5C2E;
+	font-size: 20px;
+}
+.orderdetail .sprice {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FD1728;
+	padding-bottom: 5px;
+}
+.orderdetail .sprice .price {
+	font-size: 40px;
+	font-weight: bold;
+}
+.orderdetail .tax_price {
+	font-size: 18px;
+	padding: 5px 0 15px;
+	font-weight: bold;
+}
+.orderdetail .redeem {
+	font-size: 16px;
+	font-weight: bold;
+}
+.orderdetail .points {
+	font-size: 16px;
+	font-weight: bold;
+	color: #44A637;
+}
+.orderdetail .orderbtn {
+	padding: 10px 0 10px;
+}
+.orderdetail .faxdl {
+	font-size: 18px;
+	padding: 0 0 5px;
+}
+.orderdetail .faxdl .link {
+	background: url("../img/cmn/link.png") no-repeat scroll 0 50% transparent;
+	font-weight: bold;
+	padding: 0 0 0 23px;
+}
+.orderdetail .desc {
+	width: 980px;
+	margin-bottom: 10px;
+}
+.orderdetail .desc dt {
+	font-weight: bold;
+	float: left;
+	clear: left;
+	width: 250px;
+}
+.orderdetail .desc dd {
+	padding: 0 0 5px;
+	float: left;
+	width: 730px;
+}
+.orderdetail .mainbox {
+	padding: 0 0 20px;
+	width: 740px;
+	margin: 0 auto;
+}
+.orderdetail .chara {
+	background: url(../img/order_emerald/tts01img1.gif) right 466px no-repeat;
+}
+.orderdetail h4 {
+	font-size: 16px;
+	min-height: 17px;
+	font-weight: bold;
+	padding-left: 22px;
+	background: url(../img/cmn/icon_tt.png) left 48% no-repeat;
+	margin: 20px auto 5px;
+}
+.orderdetail #orderpoint {
+	background: #E3FBCC;
+	padding: 10px 15px;
+	margin: 20px auto 0;
+}
+.orderdetail #orderpoint2 {
+	background: #FFB9CE;
+	padding: 10px 15px;
+	margin: 10px auto 0;
+}
+.orderdetail #order_guide {
+	width: 100%;
+	margin: 0 auto 0;
+}
+.orderdetail #order_guide caption {
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 22px;
+	min-height: 17px;
+	background: url(../img/cmn/icon_tt.png) left 48% no-repeat;
+	margin-bottom: 5px;
+}
+.orderdetail #order_guide table {
+	border: #BEC2B1 1px solid;
+	width: 100%;
+}
+.orderdetail #order_guide table th {
+	background: #F4F8E7;
+	border: #BEC2B1 1px solid;
+	padding: 8px 5px;
+	width: 90px;
+	font-weight: normal;
+}
+.orderdetail #order_guide table td {
+	border: #BEC2B1 1px solid;
+	padding: 8px 5px;
+	font-weight: normal;
+}
+.orderdetail #order_guide table p {
+	padding-bottom:10px;
+}
+.orderdetail #order_guide table td .table_tt_orb {
+    padding: 0 0px 10px;
+    font-weight: bold;
+    color: #44A637;
+}
+/*----------------------------------------------------
+	teikibin　定期便のご案内
+----------------------------------------------------*/
+.teikibin {
+}
+#taiki_img {
+	width: 740px;
+	height:300px;
+	position:relative;
+}
+#taiki_img .tax_ninc {
+	display: inline-block;
+	position: absolute;
+	right: 18px;
+	bottom: 36px;
+	color: #B90B01;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+#taiki_img .tax_ninc:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-mask-image: url(https://midorimushi-senka.com/img/order_cmn/price_msk.png);
+	mask-image: url(https://midorimushi-senka.com/img/order_cmn/price_msk.png);
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+	color: #EE0E02;
+	content: attr(title);
+	text-shadow: -3px -3px #FFF,  3px -3px #FFF,  -3px 3px #FFF,  3px 3px #FFF;
+}
+#taiki_img .tax_toku {
+	display: inline-block;
+	position: absolute;
+	right: 83px;
+	bottom: 85px;
+	color: #FD5C2E;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+	text-shadow: 2px 2px 1px #F7ED44, 1px 1px 1px #F7ED44, 2px -2px 1px #F7ED44, 1px -1px 1px #F7ED44;
+}
+#taiki_img .tax_inc {
+	position: absolute;
+	bottom: 15px;
+	right: 18px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.teikibin p {
+	padding: 0 0 5px;
+	width: 700px;
+	margin: 0 auto;
+}
+h3.teikibintt {/* 以下商品詳細も同じ */
+	width: 720px;
+	margin: 20px auto 10px;
+}
+.todokebi {
+	margin-left: 20px;
+}
+.todokebi li {
+	float: left;
+	width: 81px;
+	padding-right: 10px;
+}
+.teikibinbox {
+	width: 220px;
+	float: left;
+	margin: 0 5px;
+}
+.teikibinbox p {
+	width: 220px;
+}
+.chui {
+	border: #BEC2B1 1px solid;
+	padding: 10px 10px 10px 30px;
+	width: 700px;
+}
+.chui li {
+	list-style: disc;
+}
+.textbox01 {
+	border: 3px solid #BDEAE7;
+	padding: 10px;
+	width: 712px;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	margin: 5px auto;
+	font-weight: bold;
+	background: #BDEAE7;
+}
+.textbox02 {
+	padding: 8px 5px;
+	font-size: 14px;
+	line-height: 14px;
+	margin: 5px auto;
+	font-weight: bold;
+	background: #BDEAE7;
+}
+.campaign_items{
+	padding: 15px 0 0;
+	min-width:268px;
+	min-height:121px;
+	/*min-height:95px;
+	background: url(../img/order_emerald/campaign_.jpg) 360px 10px no-repeat;*/
+	/*min-height:110px;
+	background: url(../img/order_emerald/campaign_chinsukou.jpg) 360px 10px no-repeat;*/
+	background: url(../img/order_emerald/campaign_crystals.jpg) 360px 10px no-repeat;
+
+}
+/*----------------------------------------------------
+	media　メディア紹介
+----------------------------------------------------*/
+.media {
+}
+.media p {
+	width: 700px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.media h4 {
+	width: 720px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.media .zasshi4 {
+	width: 410px;
+	height: 190px;
+	margin: 0 auto;
+	padding: 220px 290px 0 20px;
+	background: url(../img/media/scawaii.jpg) left top no-repeat;
+	position: relative;
+}
+.media .zasshi3 {
+	width: 410px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 310px 290px 0 20px;
+	background: url(../img/media/rillia.jpg) left top no-repeat;
+	position: relative;
+}
+.media .zasshi2 {
+	width: 410px;
+	height: 235px;
+	margin: 0 auto;
+	padding: 176px 290px 0 20px;
+	background: url(../img/media/keisaijisseki2.jpg) left top no-repeat;
+	position: relative;
+}
+.media .zasshi1 {
+	width: 400px;
+	height: 114px;
+	margin: 0 auto;
+	padding: 165px 20px 0 300px;
+	background: url(../img/media/keisaijisseki1.jpg) left top no-repeat;
+	position: relative;
+}
+/*----------------------------------------------------
+	voice　お客様の声
+----------------------------------------------------*/
+.voicebox {
+	margin: 10px 0;
+	border-bottom: dashed 1px #B6B6B6;
+	width: 720px;
+}
+.voicebox img {
+	float: left;
+	width: 50px;
+	padding: 30px 10px 0;
+}
+.voicebox dl {
+	float: left;
+	margin: 0 0 10px;
+	padding: 10px;
+	width: 630px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.voicebox dl:hover {
+	background: #ECFFD9;
+}
+.voicebox dt {
+	margin: 0 0 5px;
+}
+/*----------------------------------------------------
+	flow　ご注文方法
+----------------------------------------------------*/
+.flowbox {
+	width: 240px;
+	float: left;
+	margin: 0 3px;
+}
+.flowcon {
+	width: 218px;
+	border-right: #D5D09B 1px solid;
+	border-left: #D5D09B 1px solid;
+	border-bottom: #D5D09B 1px solid;
+	padding: 5px 10px 10px;
+}
+.flowconb {
+	width: 718px;
+	border-right: #D5D09B 1px solid;
+	border-left: #D5D09B 1px solid;
+	border-bottom: #D5D09B 1px solid;
+	padding: 5px 10px 10px;
+}
+.flowcon p {
+	padding: 3px 0;
+}
+.flow_mail {
+	font-size: 12px;
+	background: url("../img/guide/flow_mail.gif") no-repeat scroll right bottom transparent;
+}
+.line1 {
+	height: 170px;
+}
+.line2 {
+	height: 260px;
+}
+.line4 {
+	height: 130px;
+	background: url("../img/guide/flow_service.gif") no-repeat scroll 510px 10px transparent;
+}
+.flow h4 img {
+	vertical-align: bottom;
+}
+/*----------------------------------------------------
+	qa　よくある質問
+----------------------------------------------------*/
+.qa dl {
+	width: 700px;
+	padding: 0 0 10px;
+	border-bottom: dashed 1px #B6B6B6;
+	margin: 10px auto 20px;
+}
+.qa dt {
+	padding: 0 0 5px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.q {
+	color: #1FACBC;
+	font-weight: bold;
+	font-size: 16px;
+}
+.a {
+	color: #EE4F4F;
+	font-weight: bold;
+	font-size: 16px;
+}
+/*----------------------------------------------------
+	news　当店からのお知らせ
+----------------------------------------------------*/
+.newslist {
+}
+.newslist dl {
+	width: 720px;
+	padding: 0 0 8px;
+	border-bottom: dashed 1px #B6B6B6;
+	margin: 20px auto 10px;
+	font-weight: bold;
+}
+.newslist dt {
+	padding: 0 0 3px;
+}
+.newsdetail .btn-b {
+	background: url(../img/news/news_btnbg.jpg) top left no-repeat;
+	width: 190px;
+	line-height: 40px;
+	margin: 20px auto;
+}
+.new2013 {
+	background: url(../img/news/20130104.png) right top no-repeat;
+}
+.newsbox {
+	width:720px;
+	margin:10px auto;
+}
+.newsbox p {
+	padding-bottom: 10px;
+}
+/*----------------------------------------------------
+	contact　お問い合わせ
+----------------------------------------------------*/
+.contact {
+}
+.contact p {
+	width: 700px;
+	margin: 5px auto;
+}
+.contact .btn-b {
+	background: url(../img/news/news_btnbg.jpg) top left no-repeat;
+	width: 190px;
+	line-height: 40px;
+	margin: 20px auto;
+}
+/*----------------------------------------------------
+	dairiten　代理店募集
+----------------------------------------------------*/
+.dairiten {
+}
+.dairiten .topimg {
+	background: url(../img/dairiten/topimg.jpg) top left no-repeat;
+	width: 330px;
+	height: 130px;
+	padding: 160px 170px 30px 240px;
+	margin-bottom: 20px;
+}
+.dairiten .flowconb2 {
+	width: 718px;
+	border: #D5D09B 1px solid;
+	padding: 10px;
+}
+.dairiten .flowconb2 p, .dairiten .flowconb p {
+	padding: 3px 0;
+}
+
+
+/*-- .zeihoukaisei --*/
+.zeihoukaisei {
+	border: 3px solid #CCCCCC;
+	padding: 10px;
+	width: auto;
+	margin: 0 auto 10px;
+	line-height: 1.4em;
+}
+
+/*--- monde_selection ---*/
+.monde_selection a {
+	display:block;
+	background:none;
+	padding:0;
+	width:100%;
+	margin:0 auto 20px;
+	opacity:1;
+}
+.monde_selection a:hover {
+-webkit-transition: opacity 0.1s ease;
+-moz-transition: opacity 0.1s ease;
+transition: opacity 0.1s ease;
+	opacity:0.8;
+}
+.proof_monde {
+	margin:10px auto;
+	width:100%;
+	text-align:center;
+}
+.proof_monde img {
+	width:100%;
+	max-width:740px;
+}
+.proof .proof_monde {
+	width:80%;
+}
+
+

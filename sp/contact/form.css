@@ -1,0 +1,332 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------
+	リセット
+------------------------------------------------------------*/
+html {
+	overflow-y: scroll;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, footer, header,
+hgroup, menu, nav, section,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+body {
+	line-height:1;
+}
+
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section {
+	display:block;
+}
+
+nav ul {
+	list-style:none;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+
+a {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	text-decoration:none;
+}
+
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+
+mark {
+	background-color:#ff9;
+	color:#000;
+	font-style:italic;
+	font-weight:bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom:1px dotted #000;
+	cursor:help;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+	vertical-align:middle;
+}
+
+nav ul {
+    list-style:none;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img {
+/*	vertical-align: bottom;
+*/	font-size:0;
+	line-height: 0;
+	border: 0;
+}
+
+li {
+	list-style-type: none;
+}
+a:focus {
+	outline: none !important;
+}
+
+
+/*----------------------------------------------------
+	基本設定、リンクカラーなど
+----------------------------------------------------*/
+body {
+	background:#F5F5F5;
+	color: #171A17;
+	font-size:1.000em;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", verdana, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+}
+a {
+	color: #171A17;
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+}
+
+
+/*----------------------------------------------------
+	#container
+----------------------------------------------------*/
+#container {
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+}
+/* -----------------------------------------------------------
+	#gHeader
+		ヘッダー
+----------------------------------------------------------- */
+#gHeader {
+	width:100%;
+	background:#FFFFFF;
+	border-top:3px solid #87B335;
+	height:47px;
+}
+#logo {
+	position:absolute;
+	width:160px;
+	padding:0 10px 0 0;
+	top:10px;
+	left:10px;
+}
+h1 {
+	text-align:right;
+	padding:12px 10px 0 0;
+	font-size:0.7em;/*10px*/
+	line-height:1.2em;
+	font-weight:normal;
+}
+
+/* -----------------------------------------------------------
+	#container
+		article 記事本文・共通事項
+----------------------------------------------------------- */
+#container {
+}
+
+h2 {
+	background:#206C27;
+	height:20px;
+	line-height:20px;
+	padding:10px;
+	color:#FFFFFF;
+	font-size:1.143em;/*16px*/
+}
+h3 {
+}
+h5 {
+	background:#E4E7E4;
+	height:20px;
+	line-height:20px;
+	padding:5px;
+	font-size:1.000em;/*14px*/
+	width:98%;
+	margin:10px auto;
+}
+
+/* -----------------------------------------------------------
+	#gFooter
+		フッター
+----------------------------------------------------------- */
+#gFooter {
+	width:100%;
+	background:#87B335;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:0.857em;/*12px*/		
+}
+.copy {
+	padding:5px 0;
+	font-size:0.571em;/*8px*/
+}
+
+/* -----------------------------------------------------------
+	その他
+----------------------------------------------------------- */
+.box_red {
+	width:92%;
+	padding:10px;
+	margin:10px auto 0;
+	background:#FFFFFF;
+	border:2px solid #F51039;
+}
+.box_gry {
+	width:92%;
+	padding:10px;
+	margin:10px auto 0;
+	background:#FFFFFF;
+	border:2px solid #CCCCCC;
+}
+.box_fcred {
+	width:92%;
+	padding:10px;
+	margin:10px auto 0;
+	background:#FFFFFF;
+	border:2px solid #F51039;
+	color:#FD1728;
+	font-size:0.857em;/*12px*/		
+}
+
+/*   set.css   */
+.fc-red {
+	color:#FD1728;
+}
+.fc-nml {
+	color: #171A17;
+}
+
+.bg-w { background-color:#FFFFFF;}
+
+.ta-c{ text-align: center; }	/*中央寄せ*/
+
+.img100 {
+	width:100%;
+}
+
+.mt-10{ margin-top: 10px!important; }
+.mb-5{ margin-bottom: 5px!important; }
+.mb-10{ margin-bottom: 10px!important; }
+.mt-20{ margin-top: 20px!important; }
+.mb-20{ margin-bottom: 20px!important; }
+.p5{ padding: 5px!important; }
+.pb-10{ padding-bottom: 10px!important; }
+
+.w96_mb10 {
+	width:96%;
+	margin:0 auto 10px;
+}
+.w96 {
+	width:96%;
+	margin:0 auto;
+}
+
+/*カスタマイズで追加*/
+.btn_gray_rs {/*灰色丸*/
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#dee2de);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffffff),
+		to(#dee2de));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #e3e6e3;
+	text-shadow:
+		0px -1px 3px rgba(255,255,255,0.8),
+		0px 1px 0px rgba(255,255,255,0.3);
+	-moz-box-shadow:
+		0px 2px 3px rgba(79,73,79,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 2px 3px rgba(79,73,79,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 2px 3px rgba(79,73,79,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+		display:block;		
+	padding:5px 5% 5px 10%;
+	font-size:1.000em;/*14px*/
+	height:32px;
+	line-height:32px;
+	position:relative;
+	text-align:center;
+	margin: 10px auto;
+	color:#0291ED;
+	width:80%;
+}
+.btn_gray_rs img {
+	position:absolute;
+	width:26px;
+	height:26px;
+	top:9px;
+	left:10px;
+}
+
+

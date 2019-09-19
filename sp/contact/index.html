@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no" />
+<meta name="keywords" content="ミドリムシ,ミドリムシエメラルド,みどりむし,スマホ,お問い合せ" />
+<meta name="Description" content="ミドリムシ専科のお問い合せフォームです。" />
+<title>お問い合せ</title>
+<link rel="apple-touch-icon" href="../img/favicon.png" />
+<link rel="stylesheet" href="jquery.mobile-1.1.1.css" />
+<link rel="stylesheet" href="form.css" />
+<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.7.1");</script>
+<script src="jquery.mobile-1.1.1.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    var UA = navigator.userAgent;
+    var GA_account;
+    if(UA.indexOf('iPhone')> 0 || UA.indexOf('iPod')> 0 || UA.indexOf('iPad')> 0 || UA.indexOf('Android')> 0 || UA.indexOf('IEMobile')> 0 || UA.indexOf('BlackBerry')> 0 || UA.indexOf('Symbian')> 0 || UA.indexOf('Maemo')> 0){
+        GA_account=("UA-30334537-6");//スマホ用プロパティID
+    }else{
+        GA_account=("UA-30334537-1");//PC用プロパティID
+    }
+
+  ga('create', GA_account, 'midorimushi-senka.com');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<header id="gHeader">
+  <h1>お問い合せ</h1>
+  <p id="logo"><a href="https://midorimushi-senka.com/sp/"><img src="../img/cmn/logo.png" alt="ミドリムシ専科スマホサイト" width="160px" height="32"></a></p>
+</header>
+<article id="container" class="contact">
+  <h2> お問合わせ </h2>
+  <p class="ta-c"><img src="../img/contact/step1.png" alt="STEP1" class="img100"></p>
+  <div data-theme="c" class="ui-body">
+    <p class="box_red"> 「個人情報の取り扱い・利用目的」をよくお読みいただき、ご同意頂ける方は、ページ下にある「同意する」ボタンを押して入力画面へ進んでください。</p>
+    <div data-role="collapsible" data-collapsed="false" data-content-theme="c" class="mb-20">
+      <h3>個人情報の取り扱い・利用目的</h3>
+      <p class="mb-10">株式会社ユーコネクト（以下「当社」）は、個人情報（氏名、住所、生年月日、電話番号、その他の固人情報）の重要性を認識し、以下のガイドラインに 基づいて、適切な取り扱いと保護の徹底に努めます。当社ホームページのご利用にあたり、お客様には当プライバシーポリシーにご同意いただいたものとさせていただきます。</p>
+      <h5>個人情報の管理・保護について</h5>
+      <div class="w96_mb10">
+        <p>当社が収集したお客様の個人情報については、 適切な管理を行い、紛失・破壊・改ざん・不正アクセス・漏えいなどの防止に努めます。 取得したお客様の個人情報について、お客様の同意なく開示することはございません。 また、当社サイトへのアクセスにより、他のお客様が個人情報を閲覧されることはございません。</p>
+      </div>
+      <h5>個人情報の利用について</h5>
+      <div class="w96_mb10">
+        <p>お客様の個人情報は、以下の目的で利用いたします。</p>
+        <ul class="mt-10">
+          <li> * 商品の発送、商品代金の決済、カタログやＤＭの送付、関連するアフターサービス、及びこれらの遂行に必要なご連絡のため</li>
+          <li> * カタログやＤＭ、メールによるサービスに関連する情報や、新商品のお知らせのため</li>
+          <li> * お客様がサービスをご利用になる際の身分証明のため</li>
+          <li> * 必要に応じてお客様に連絡を行うため</li>
+          <li> * お客様にサービスや商品、及び関連する情報について的確にお伝えするため</li>
+          <li> * 社内における調査・研究資料として</li>
+          <li> * より満足していただけるサービスへの改善や、新たなサービスの開発を行うため</li>
+        </ul>
+      </div>
+      <h5>個人情報の第三者への開示、提供について</h5>
+      <div class="w96_mb10">
+        <p>ご本人の許可なく第三者に個人情報を開示または提供することは原則的にいたしません。 個人情報を第三者に提供する際には、個人情報保護法その他関連する法規に従い、 収集及び利用目的の範囲内で行います。</p>
+      </div>
+      <h5>お問い合せについて</h5>
+      <div class="w96_mb10">
+        <p>個人情報の取扱いに関し、苦情・お問い合せ等ございましたら、下記担当窓口までご連絡ください。<br>
+          会社名：株式会社ユーコネクト<br>
+          住所：〒810-0001 福岡県福岡市中央区天神1丁目9-17　福岡天神フコク生命ビル15Ｆ<br>
+          電話番号：0120-799-100</p>
+      </div>
+      <h5>サイトポリシー</h5>
+      <div class="w96_mb10">
+        <p>当サイト上の文書・写真・イラスト等（以下コンテンツと表現）は、当社及びその関係会社（以下総称して当社といいます）ならびに第三者が有する著作権によ り保護されております。当サイトご利用の皆様は、個人的にまたは家庭内その他これに準ずる限られた範囲内において使用することを目的とする場合にのみコン テンツをダウンロード等により複製することができます。 また、当社は、当サイトからリンクしている他のサイトのコンテンツに関して一切の責任を負いません。       </div>
+    </div>
+    <form action="form.php" method="link" class="ui-body" data-ajax="false">
+      <fieldset>
+      <p class="ta-c">【個人情報の取り扱い・利用目的】に</p>
+      <button type="submit" data-icon="check" class="mt-10 mb-20">同意する</button>
+      </fieldset>
+    </form>
+  </div>
+  <p class="ta-c mt-10 mb-20"><a href="javascript:window.close();" data-ajax="false">同意せずに終了する</a></p>
+</article>
+<footer id="gFooter">
+  <p class="copy"><small>Copyright &copy; 株式会社ユーコネクト All Rights Reserved.</small></p>
+</footer>
+</body>
+</html>
