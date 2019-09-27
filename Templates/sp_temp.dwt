@@ -52,6 +52,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <nav><!-- TemplateBeginEditable name="subnavi" -->
   <div id="subNavi" class="btn_gray_sdw"><a href="#navi01" class="btn_gray_s"><img src="../sp/img/cmn/ele26.png">調べる<span class="moveu12_r">　</span></a><a href="#navi02" class="btn_gray_s"><img src="../sp/img/cmn/cart26.png">注文する<span class="moveu12_r">　</span></a></div>
   <!-- TemplateEndEditable --></nav>
+<div id="headBnr">
+  <a href="../sp/news/n20190927.html"><img src="../img/campaign/bnr_cashless.png" alt="キャッシュレス・消費者還元事業の対象店です" /></a>
+</div>
 <!-- TemplateBeginEditable name="article" --> <!-- TemplateEndEditable -->
 <aside class="f_order"><!-- TemplateBeginEditable name="f_order" --><!-- #BeginLibraryItem "/Library/order_net.lbi" -->
 <h4><a href="../sp/order" class="btn_or_r"><img src="../sp/img/cmn/cartw26.png">ご注文はこちらから</a></h4>

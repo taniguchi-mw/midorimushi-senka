@@ -43,4 +43,6 @@ if(isset($category_description)){
 <nav>
   <div id="subNavi" class="btn_gray_sdw"><a href="<?php echo home_url( '/' ); ?>sp/" class="btn_gray_s subNavi_col1"><img src="<?php echo home_url( '/' ); ?>sp/img/cmn/home26.png">HOMEへ戻る</a><!-- <a href="javascript:history.back()" class="btn_gray_s"><img src="<?php echo home_url( '/' ); ?>sp/img/cmn/back26.png">前へ戻る</a> --><a href="<?php echo home_url( '/' ); ?>sp/order/" class="btn_gray_s subNavi_col1"><img src="<?php echo home_url( '/' ); ?>sp/img/cmn/cart26.png">商品一覧</a></div>
 </nav>
-
+<div id="headBnr">
+  <a href="<?php echo home_url( '/' ); ?>sp/news/n20190927.html"><img src="<?php echo home_url( '/' ); ?>img/campaign/bnr_cashless.png" alt="キャッシュレス・消費者還元事業の対象店です" /></a>
+</div>
