@@ -20,12 +20,12 @@
 <link rel="canonical" href="https://midorimushi-senka.com/"/>
 <!-- TemplateEndEditable -->
 <link rel="apple-touch-icon" href="https://midorimushi-senka.com/sp/img/webclip.png" />
-<link rel="stylesheet" href="../css/layout.css" type="text/css">
-<link rel="stylesheet" href="../css/set.css" type="text/css">
+<link rel="stylesheet" href="../sp/css/layout.css" type="text/css">
+<link rel="stylesheet" href="../sp/css/set.css" type="text/css">
 <script src="https://www.google.com/jsapi" type="text/javascript"></script>
 <script type="text/javascript">google.load("jquery", "1.7.1");</script>
-<script src="../js/all.js" type="text/javascript"></script>
-<script src="../js/gotopc.js" type="text/javascript"></script>
+<script src="../sp/js/all.js" type="text/javascript"></script>
+<script src="../sp/js/gotopc.js" type="text/javascript"></script>
 <!-- Google Tag Manager -->
 <noscript>
 <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MQX928"
@@ -46,20 +46,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <h1>ミドリムシエメラルド<br>
     公式ショッピングサイト</h1>
   <!-- TemplateEndEditable -->
-  <p id="logo"><a href="https://midorimushi-senka.com/sp/"><img src="../img/cmn/logo.png" alt="ミドリムシ専科スマホサイト"></a></p>
-  <p class="btn_login"><a href="https://u-connect.jp/account/my_page_login" target="_blank" class="btn_grn_r"><img src="../img/cmn/login26.png" alt="マイアカウントページログイン"></a></p>
+  <p id="logo"><a href="https://midorimushi-senka.com/sp/"><img src="../sp/img/cmn/logo.png" alt="ミドリムシ専科"></a></p>
+  <p class="btn_login"><a href="https://u-connect.jp/account/my_page_login" target="_blank" class="btn_grn_r"><img src="../sp/img/cmn/login26.png" alt="マイアカウントページログイン"></a></p>
 </header>
 <nav><!-- TemplateBeginEditable name="subnavi" -->
-  <div id="subNavi" class="btn_gray_sdw"><a href="#navi01" class="btn_gray_s"><img src="../img/cmn/ele26.png">調べる<span class="moveu12_r">　</span></a><a href="#navi02" class="btn_gray_s"><img src="../img/cmn/cart26.png">注文する<span class="moveu12_r">　</span></a></div>
+  <div id="subNavi" class="btn_gray_sdw"><a href="#navi01" class="btn_gray_s"><img src="../sp/img/cmn/ele26.png">調べる<span class="moveu12_r">　</span></a><a href="#navi02" class="btn_gray_s"><img src="../sp/img/cmn/cart26.png">注文する<span class="moveu12_r">　</span></a></div>
   <!-- TemplateEndEditable --></nav>
 <!-- TemplateBeginEditable name="article" --> <!-- TemplateEndEditable -->
 <aside class="f_order"><!-- TemplateBeginEditable name="f_order" --><!-- #BeginLibraryItem "/Library/order_net.lbi" -->
-<h4><a href="../order" class="btn_or_r"><img src="../img/cmn/cartw26.png">ご注文はこちらから</a></h4>
+<h4><a href="../sp/order" class="btn_or_r"><img src="../sp/img/cmn/cartw26.png">ご注文はこちらから</a></h4>
 <p class="fs-10">購入時会員登録で次回ご利用いただける<br>
   600ポイントプレゼント！<br>
   毎回、商品代金(税抜き)の10％ポイント還元！</p>
 <!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/order_tel.lbi" -->
-<h4><a href="tel:0120-799-100" class="btn_gray_rs"><img src="../img/cmn/tel26.png"><span class="fs-10 fc-nml">電話で注文する</span><br>
+<h4><a href="tel:0120-799-100" class="btn_gray_rs"><img src="../sp/img/cmn/tel26.png"><span class="fs-10 fc-nml">電話で注文する</span><br>
   <span class="fs-22">0120-799-100</span></a></h4>
 <p class="fs-10">ミドリムシ専科運営会社：ユーコネクト<br>
   受付時間：9時半～18時半(土日祝日除く)<br>
@@ -67,10 +67,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- #EndLibraryItem --><!-- TemplateEndEditable --> </aside>
 <footer id="gFooter">
   <nav>
-    <div id="fNavi" class="btn_gray_sdw"><a href="https://midorimushi-senka.com/sp/" class="btn_gray_s"><img src="../img/cmn/home26.png">HOMEへ戻る</a><a href="../order/" class="btn_gray_s"><img src="../img/cmn/cart26.png">商品一覧</a></div>
+    <div id="fNavi" class="btn_gray_sdw"><a href="https://midorimushi-senka.com/sp/" class="btn_gray_s"><img src="../sp/img/cmn/home26.png">HOMEへ戻る</a><a href="../sp/order/" class="btn_gray_s"><img src="../sp/img/cmn/cart26.png">商品一覧</a></div>
   </nav>
-  <nav class="flink"><a href="../company/">運営会社</a> ｜ <a href="../tokutei/">特定商取引に基づく表記</a> ｜<br>
-    <a href="../kiyaku/">ご利用規約</a> ｜ <a href="../privacy/">個人情報保護方針</a> ｜<br><a href="../contact/" target="_blank">お問い合わせ</a></nav><p id="gotopc"></p><p class="copy"><small>Copyright &copy; 株式会社ユーコネクト All Rights Reserved.</small></p>
+  <nav class="flink"><a href="../sp/company/">運営会社</a> ｜ <a href="../sp/tokutei/">特定商取引に基づく表記</a> ｜<br>
+    <a href="../sp/kiyaku/">ご利用規約</a> ｜ <a href="../sp/privacy/">個人情報保護方針</a> ｜<br><a href="../sp/contact/" target="_blank">お問い合わせ</a></nav><p id="gotopc"></p><p class="copy"><small>Copyright &copy; 株式会社ユーコネクト All Rights Reserved.</small></p>
 </footer>
 <!-- 広告媒体管理 -->
 <div class="adImage">
