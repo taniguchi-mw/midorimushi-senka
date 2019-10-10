@@ -57,7 +57,6 @@
         <script type="text/javascript" charset="UTF-8" src="<?php echo home_url( '/' ); ?>js/cale.js"></script> 
       </div>
     </div>
-	    <div class="bn movieBox"><a href="<?php echo home_url( '/' ); ?>spurl/sp.php" class="over"><img src="<?php echo home_url( '/' ); ?>img/side/bn_sp.jpg" alt="スマホサイトオープン！" /></a></div>
   </div>
   <!-- / #side --> 
 </div>
