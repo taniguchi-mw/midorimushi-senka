@@ -1035,6 +1035,14 @@ h4.nowOpen {/* 開閉リスト */
 	-webkit-box-flex: 2;
 	-moz-box-flex: 2;
 }
+.itemimg {
+	text-align: center;
+}
+.itemimg img {
+	width: 100%;
+	max-width:340px;
+	vertical-align: bottom;
+}
 .itemname {
 	font-size:0.857em;/*12px*/
 }
