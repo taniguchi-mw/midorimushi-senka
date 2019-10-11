@@ -1387,10 +1387,10 @@ hr.bdr_ds {
 	display: inline-block;
 	position: absolute;
 	left: 0;
-	bottom: 0;
+	bottom: 3px;
 	color: #B90B01;
-	font-size: 36px;
-	line-height: 36px;
+	font-size: 35px;
+	line-height: 35px;
 	font-family: 'Open Sans', sans-serif;
 }
 .goodslist ul li a p .tax_no:after {
@@ -1411,7 +1411,7 @@ hr.bdr_ds {
 	display: inline-block;
 	position: absolute;
 	left: 0;
-	bottom: -20px;
+	bottom: -22px;
 	color: #292827;
 	font-size: 17px;
 }
@@ -1660,11 +1660,12 @@ hr.bdr_ds {
 	display: inline-block;
 	position: absolute;
 	right: 8px;
-	bottom: 70px;
+	bottom: 76px;
 	color: #B90B01;
-	font-size: 50px;
-	line-height: 50px;
+	font-size: 48px;
+	line-height: 48px;
 	font-family: 'Open Sans', sans-serif;
+	text-shadow: -3px -3px #FFF,  3px -3px #FFF,  -3px 3px #FFF,  3px 3px #FFF;	
 }
 .orderdetail .leftbox .order_bnb .tax_nob:after {
 	position: absolute;
@@ -1684,9 +1685,9 @@ hr.bdr_ds {
 	display: inline-block;
 	position: absolute;
 	font-size: 22px;
-	right: 13px;
-	bottom: 48px;
-	text-shadow: 2px 2px 0 #fff;
+	right: 10px;
+	bottom: 40px;
+	text-shadow: -3px -3px #FFF,  3px -3px #FFF,  -3px 3px #FFF,  3px 3px #FFF;	
 }
 .orderdetail .leftbox .order_bnb .per_ib {
 	display: inline-block;
@@ -1750,10 +1751,10 @@ hr.bdr_ds {
 }
 #eme01 .tax_nob {
 	right: 8px;
-	bottom: 50px;
+	bottom: 53px;
 }
 #eme01 .tax_incb {
-	bottom: 28px;
+	bottom: 21px;
 }
 #eme01 .per_ib {
 	left: 150px;
@@ -1820,7 +1821,7 @@ hr.bdr_ds {
 	font-size: 20px;
 	font-weight: bold;
 	color: #FD1728;
-	padding-bottom: 5px;
+	margin-bottom: -8px;
 }
 .orderdetail .sprice .price {
 	font-size: 40px;
@@ -1828,7 +1829,7 @@ hr.bdr_ds {
 }
 .orderdetail .tax_price {
 	font-size: 18px;
-	padding: 5px 0 15px;
+	padding: 0 0 15px;
 	font-weight: bold;
 }
 .orderdetail .redeem {
@@ -1841,7 +1842,10 @@ hr.bdr_ds {
 	color: #44A637;
 }
 .orderdetail .orderbtn {
-	padding: 10px 0 10px;
+	padding: 10px 0 5px;
+}
+.orderdetail .orderbtn_pouch {
+	padding: 0 0 5px;
 }
 .orderdetail .faxdl {
 	font-size: 18px;
