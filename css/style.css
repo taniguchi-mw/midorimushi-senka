@@ -1845,11 +1845,11 @@ hr.bdr_ds {
 	padding: 10px 0 5px;
 }
 .orderdetail .orderbtn_pouch {
-	padding: 0 0 5px;
+	padding: 0;
 }
 .orderdetail .faxdl {
 	font-size: 18px;
-	padding: 0 0 5px;
+	padding: 5px 0 0;
 }
 .orderdetail .faxdl .link {
 	background: url("../img/cmn/link.png") no-repeat scroll 0 50% transparent;
